@@ -206,12 +206,8 @@
                 <span>1,000 - 3,000 (Medium)</span>
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background: #9b59b6;"></div>
-                <span>500 - 999 (Moderate)</span>
-            </div>
-            <div class="legend-item">
                 <div class="legend-color" style="background: #3498db;"></div>
-                <span>Below 500 (Low)</span>
+                <span>Below 1,000 (Low)</span>
             </div>
         </div>
         
@@ -225,8 +221,8 @@
                 <div class="stat-label">Total Counties</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">15</div>
-                <div class="stat-label">Counties Above 500</div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Counties Above 1,000</div>
             </div>
         </div>
     </div>
@@ -301,9 +297,6 @@
                 } else if (county.value >= 1000) {
                     backgroundColors.push('rgba(243, 156, 18, 0.8)');
                     borderColors.push('rgba(243, 156, 18, 1)');
-                } else if (county.value >= 500) {
-                    backgroundColors.push('rgba(155, 89, 182, 0.8)');
-                    borderColors.push('rgba(155, 89, 182, 1)');
                 } else {
                     backgroundColors.push('rgba(52, 152, 219, 0.8)');
                     borderColors.push('rgba(52, 152, 219, 1)');
